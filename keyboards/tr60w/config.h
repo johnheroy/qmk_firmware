@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 #ifndef CONFIG_H
 #define CONFIG_H
+=======
+#pragma once
+>>>>>>> 361ac2f32ac8b906dbb29cd0a6c5f971dad298c3
 
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
+<<<<<<< HEAD
 #define PRODUCT_ID      0x6060
+=======
+#define PRODUCT_ID      0x4140
+>>>>>>> 361ac2f32ac8b906dbb29cd0a6c5f971dad298c3
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Triangle_Lab
 #define PRODUCT         TR60W
@@ -30,7 +38,11 @@
 #endif
 
 /* Set 0 if debouncing isn't needed */
+<<<<<<< HEAD
 #define DEBOUNCING_DELAY 5
+=======
+#define DEBOUNCE 5
+>>>>>>> 361ac2f32ac8b906dbb29cd0a6c5f971dad298c3
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
@@ -38,6 +50,7 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+<<<<<<< HEAD
 /* key combination for command */
 #define IS_COMMAND() ( \
     keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)) \
@@ -46,6 +59,8 @@
 /* prevent stuck modifiers */
 #define PREVENT_STUCK_MODIFIERS
 
+=======
+>>>>>>> 361ac2f32ac8b906dbb29cd0a6c5f971dad298c3
 #define RGB_DI_PIN F7
 #ifdef RGB_DI_PIN
 #define RGBLIGHT_ANIMATIONS
@@ -54,5 +69,8 @@
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
 #endif
+<<<<<<< HEAD
 
 #endif
+=======
+>>>>>>> 361ac2f32ac8b906dbb29cd0a6c5f971dad298c3
